@@ -1,0 +1,208 @@
+
+body {
+    margin: 0 0 0 0;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+.navigation {
+    display: flex;
+    border: 2px black solid;
+    background-color: beige;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navigation nav{
+    margin-left: 5rem;
+    margin-right:5rem;
+    color: black;
+}
+.navigation h3 {
+    float: left
+}
+.navigation ul {
+    list-style-type: none;
+    float: right;
+}
+.navigation li {
+    display: inline;
+    padding-left: 3rem;
+}
+.navigation a, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation a:visited {
+    color: black;
+}
+.intro {
+    position: relative;
+    margin: 0, 0, 0, 0;
+    height: 45rem;
+    color: black;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+}
+.intro h1{
+    font-size: 3rem;
+}
+
+.intro i {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.intro a i{
+    color: black;
+}
+.intro a:visited i{
+    color: black;
+}
+.intro a i:hover {
+    opacity: 50%;
+}
+.intro button:hover {
+    background-color: rgb(255, 204, 203);;
+}
+
+.intro button {
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    font-family: sans-serif;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 100%;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+
+.contact {
+    text-align: center; 
+    font-size: 300%; 
+    margin-top: 1%;
+}
+.section-title{
+    text-align: center;
+}
+
+
+.work-experience-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.work-box {
+    display: flex;
+    height: 20rem;
+    flex-direction: row;
+    box-sizing: border-box;
+
+}
+.work-box:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.work-box div {
+    width: 50%;
+    height: relative;
+}
+.logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 30rem;
+    height: relative;
+    
+}
+.work-info {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+.work-info a, a:visited {
+    color: white;
+}
+.education {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.education img {
+    width: 15rem;
+    height: relative;
+}
+.diploma {
+    padding-top: 1rem;
+    width: 50rem;
+    border: 1px black solid;
+}
+
+.coursework {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.course-subject {
+    width: 40rem;
+    padding: 2rem;
+}
+.course-subject i{
+    font-size: 800%;
+    padding: 5% 5%;
+}
+.course-subject div{
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+.course-subject ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form {
+    width: 20rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+
+.contact-form input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+}
+.contact-form input[type = submit] {
+    width: 50%;
+    background-color: white;
+    border-radius: 4px;
+    transform: translateX(50%);
+}
+.contact-form input[type = submit]:hover {
+    background-color: grey;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
