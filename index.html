@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Benjamin Mak's Portfolio</title>
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="preconnect" href="https://rsms.me/">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    </head>
+    <body>
+    <nav class = 'main-nav' id = 'main-nav'>
+        <a href="#intro" class = 'title'>Benjamin Mak</a>
+        <span>
+        <div class = 'dropdown'>
+            <button><a>Work ▼</a></button>
+            <div class = 'dropdown-content'>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+            </div>
+        </div>
+        <a href  = '#misc'>Misc.</a>
+        <a href  = '#contact'>Contact</a>
+        </span>
+        <a class="icon" onclick="myFunction()">&#9776;</a>
+        
+    </nav>
+    <section class = "intro" id = "intro">
+        <div class= 'intro-text'>
+            
+            <span>
+            <h1>Benjamin Mak</h1>
+            <h2>Math and Stats Grad @UTSC</h2>
+            </span>
+            
+            <div class = 'social-links'>
+                <a href = "https://www.linkedin.com/in/benjamin-mak-12bb40201/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href = "https://github.com/benmak25" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href = "https://www.instagram.com/ben.mak25/?hl=en" target="_blank"><i class = 'fa-brands fa-instagram'></i></a>
+            </div>
+        </div>
+        <div class = 'headshot'>
+            <img src = 'Photos/head-shot.jpg'>
+        </div>
+    </section>
+
+
+    <section id = "experience"> 
+        <h2 style="text-align: center;">Experience Summary</h2>
+        <div class = "work-experience-content">
+            <div class = 'work-box'>
+                <div class = 'logo-box', style = 'background-blend-mode: multiply;'>
+                    <img class = 'logo' src = 'Photos/bmo-logo.jpg' style = 'size: 25%;'>
+                </div>
+                <div class = 'work-info'>
+                    <h3>Business Data Analyst @ Bank of Montreal</h3>
+                    <h4>May 2024 - August 2024</h4>
+                    <p>I worked on a project involving a major change in the company database to optimize data storage.
+                        By analyzing complex historical Datasets, I presented my results to impacted end-users to gather business requirements to implement the change.
+                    </p>
+                    <p>Key Skills: Data Analysis, Excel, SQL, Stakeholder Management</p>
+                    <a href = "https://www.bmo.com/en-ca/main/personal/"><i class="fa-solid fa-arrow-up-right-from-square"></i> <u>More About BMO</u></a>
+                </div>
+            </div>
+        
+            <div class = 'work-box'>
+                <div class = 'logo-box'>
+                    <img class = 'logo' src = 'Photos/wl-logo.png'>
+                </div>
+                <div class = 'work-info'>
+                    <h3>Product Coordinator @ WellnessLiving</h3>
+                    <h4>September 2023 - December 2023</h4>
+                    <p>I worked in the Application Support Sector, contributing to technical issue solutions for the company software product.
+                        Particularly, I validated incoming software issues faced by business users and communicated my solutions to Engineers and Customer Service Representatives.
+                    </p>
+                    <p>Key Skills: Product Management, Problem Solving, Collaborative Skills, Time Management</p>
+                    <a href = "https://www.wellnessliving.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> <u>More About WellnessLiving</u></a>
+                </div>
+            </div>
+
+            <div class = 'work-box'>
+                <div class = 'logo-box'>
+                    <img class = 'logo' src = 'Photos/mw-logo.png'>
+                </div>
+                <div class = 'work-info'>
+                    <h3>Guest Relations - Transportation Coordinator @ Muskoka Woods</h3>
+                    <h4>May 2023 - September 2023</h4>
+                    <p>As a part of the Guest Relations Team, I worked on the frontline to ensure positive experiences for all customers, providing 
+                        good Customer Service and performing administrative tasks. In addition, I managed the Camp Transportation on a weekly basis</p>
+                    <p>Key Skills: Customer Service, Administration, Leadership, Active Learning</p>
+                    <a href = "https://muskokawoods.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> <u>More About Muskoka Woods</u></a>
+                </div>
+            </div>
+        </div>
+
+        <div class = 'work-box'>
+            <div class = 'logo-box'>
+                <img class = 'logo' src = 'Photos/utsc-logo.png' style = 'size: 80%;'>
+            </div>
+            <div class = 'work-info'>
+                <h3>Undergraduate Student @ University of Toronto Scarborough</h3>
+                <h4>Sept 2020 - June 2025</h4>
+                <p>Completed Bachelor's Degree in Science, with a Specialist in Mathematics (Comprehensive Stream, with Co-op) and a Minor in Statistics</p>
+                <a href = "https://utsc.calendar.utoronto.ca/specialist-program-mathematics-comprehensive-stream-science-scspe11659" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> <u>Program Requirements</u></a>
+            </div>
+        </div>
+    </section>
+
+    <section class = 'projects' id = "projects">
+        <h2 style="text-align: center;">Sample Projects</h2>
+
+        <div class = 'projects-container'>
+            <div class = 'project-item'> 
+                <div class = 'project-photo'><img src = 'Photos/portfolio-project.png'></div>
+                <div style = "text-align: center;">
+                    <h3>Personal Portfolio</h3>
+                    <p>My first big individual coding project: a responsive website to display my resume details and other things about me</p>
+                    <p>Created using <i>HTML, CSS  and JavaScript</i></p>
+                </div>
+            </div>
+            <div class = 'project-item'> 
+                <div><img src = 'Photos/poker-project.png'></div>
+                <div style = "text-align: center;"><h3>Continuous Poker Model Analysis</h3>
+                    <p>As a part of my supervised reading course, I summarized a chapter from a Game Theory Book, on Continuous Poker Models, and applied my knowledge to solve a selected problemset</p>
+                    <p>Created using <i>LaTeX</i></p>
+                </div>
+            </div>
+            <div class = 'project-item'> 
+                <div><img src="Photos/cat-project.png"></div>
+                <div style = "text-align: center;"><h3>Categorical Data Case Study</h3>
+                    <p>As a part of my Categorical Analysis course, I analyzed a categorical dataset with 905 records,  producing various models and using statistical techniques to draw insights on the given data.</p>
+                    <p>Created using <i>R Markdown</i></p>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <section class = 'skills' id = 'skills'>
+        <h2 style = 'text-align: center;'>Technical Skills</h2>
+        <div class = 'skill-list'>
+            <div class = 'icon-container'>
+                <div class = 'bubble'>Python</div>
+                <i class="fa-brands fa-python"></i>
+            </div>
+            <div class = 'icon-container'>
+                <div class = 'bubble'>SQL</div>
+                <i class="fa-solid fa-database"></i>
+            </div>
+            <div class = 'icon-container'>
+                <div class = 'bubble'>Excel</div>
+                <i class="fa-solid fa-file-excel"></i>
+            </div>
+            <div class = 'icon-container'>
+                <div class = 'bubble'>R Studio</div>
+                <i class="devicon-r-plain"></i>
+            </div>
+            <div class = 'icon-container'>
+                <div class = 'bubble'>LaTeX</div>
+                <i class="devicon-latex-original"></i>
+            </div>
+            <div class = 'icon-container'>
+                <div class = 'bubble'>JavaScript</div>
+                <i class="devicon-javascript-plain"></i>
+            </div>
+          
+          
+        </div>
+    </section>
+    <section class = 'misc' id = 'misc'>
+        <h2 style="text-align: center;">Miscellaneuous</h2>
+        <p style="text-align: center;">Learn a bit more about me by playing 2 truths, 1 lie. <br> Figure out which of the 3 statements below is false</p>
+        <div class = 'app'>
+            <div class = 'choices' id = 'choices'>
+            </div>
+            <div class = 'info-box'>
+                <div class = 'icon-box'><i class="fa-solid fa-circle-info" style = 'font-size: 300%;'></i></div>
+                <div class = 'info-content' id = 'info-content'><p id = 'info-text'></p></div>
+            </div>
+        </div>
+    </section>
+    
+    <section style="align-items: center;" id = "contact">
+        <h1>Leave a Message</h1>
+        <div class = "contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="e8f88cf3-bb1a-42b7-8d76-d1a905b00f34">
+
+                <label for = 'name'>Name</label>
+                <input type = "text" id="fullname" name = "Name" placeholder="Enter Name Here">
+
+                <label for = 'name'>Email</label>
+                <input type = "text" id="emailaddress" name = "Email" placeholder="Enter Email Here">
+
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <label for = 'name'>Message</label>
+                <textarea id="message" name = "Message" placeholder="Enter Message Here" style = "height: 10rem"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <footer> 
+        © Copyright 2025 Benjamin Mak
+    </footer>
+    <script src = "script.js"></script>
+    </body>
+</html>
