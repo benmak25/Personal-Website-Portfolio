@@ -1,12 +1,11 @@
-
 html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
 }
 :root {
-    --main-color: black; /* Example: A shade of blue */
-    --secondary-color: blue; /* Example: A shade of gray */
-    --accent-color: white; /* Optional: For specific accents */
+    --main-color: black; 
+    --secondary-color: blue; 
+    --accent-color: white; 
     --button-hover-color: rgba(0, 0, 255, 0.5);
 
   }
@@ -79,7 +78,7 @@ nav .dropdown {
 }
 
 nav .icon {
-    height: inherit;
+    height: auto;
     display: none;
     color: var(--main-color); 
     cursor: pointer;
@@ -88,15 +87,12 @@ nav .icon {
     nav {
         display: block;
         margin: 0;
-        padding: 0;
     }
-
-    
     nav a.icon {
       float: right;
       display: block;
-      padding: 1rem 1.5rem;
       margin: 0;
+      padding: 0.9rem;
     }
     nav div {
         max-height: 0;
@@ -117,9 +113,8 @@ nav .icon {
     
     .main-nav a.icon {
       position: absolute;
-      right: 0.5rem;
+      right: 0;
       top: 0;
-      text-align: center;
     }
     .main-nav.responsive div {
         max-height: 20rem;
@@ -602,3 +597,4 @@ footer {
         font-size: 2vw;
     }
 }
+
