@@ -3,9 +3,9 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 :root {
-    --main-color: black; 
-    --secondary-color: blue; 
-    --accent-color: white; 
+    --main-color: black; /* Example: A shade of blue */
+    --secondary-color: blue; /* Example: A shade of gray */
+    --accent-color: white; /* Optional: For specific accents */
     --button-hover-color: rgba(0, 0, 255, 0.5);
 
   }
@@ -92,7 +92,7 @@ nav .icon {
       float: right;
       display: block;
       margin: 0;
-      padding: 0.9rem;
+      padding: 0.9rem 2rem;
     }
     nav div {
         max-height: 0;
@@ -103,7 +103,6 @@ nav .icon {
     nav div a{
         width: auto;
         padding-left: 2rem;
-
     }
     
   }
@@ -124,8 +123,9 @@ nav .icon {
       display: block;
       text-align: left;
       margin: 0;
-      padding: 1rem 1rem 1rem 2rem;
+      padding: 1rem;
     }
+
   }
 
 section{
